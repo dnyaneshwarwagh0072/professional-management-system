@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>Employee Management</title>
+</head>
+
+<body>
+
+    <h2>Employee Form</h2>
+    <form id="employeeForm">
+        <div class="input-field">
+            <div class="input-field-1">
+                <label for="name">Enter Name</label>
+                <br>
+                <input type="text" id="name" placeholder="Enter Name" required>
+            </div>
+            <div class="input-field-2">
+                <label for="profession">Enter Profession</label>
+                <br>
+                <input type="text" id="profession" placeholder="Enter Profession" required>
+            </div>
+            <div class="input-field-3">
+                <label for="age">Enter Age</label>
+                <br>
+                <input type="number" id="age" placeholder="Enter Age" required>
+            </div>
+        </div>
+        <br>
+        <button type="button" onclick="addEmployee()" id="btn-css">Add User</button>
+    </form>
+    <p id="message"></p>
+    <h3>Added Employees</h3>
+    <div id="employeeList">Data not found</div>
+
+</body>
+
+</html>

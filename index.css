@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.employee {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.input-field {
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    padding: 10px;
+    margin-top:5px ;
+    width: 300px;
+}
+#employeeList{
+    margin-left: 250px;
+}
